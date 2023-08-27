@@ -1,0 +1,63 @@
+.userList {
+  flex: 4;
+}
+
+.userListUser {
+  display: flex;
+  align-items: center;
+}
+
+.userListImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.userListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userListDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.userDownloadButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #C70039;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Add a class for the "Is Admin" column */
+.userListIsAdmin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling for Yes */
+.userListIsAdmin .isAdminYes {
+  color: green;
+  font-weight: bold;
+}
+
+/* Styling for No */
+.userListIsAdmin .isAdminNo {
+  color: red;
+  font-weight: bold;
+}

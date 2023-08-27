@@ -1,0 +1,64 @@
+/* order.css */
+.order {
+  padding: 20px;
+}
+
+.orderTitle {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.orderProduct {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.orderProductImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.statusDropdown {
+  min-width: 200px;
+}
+
+.menuItem {
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+}
+
+.Pending {
+  background-color: #4287f5;
+}
+
+.InvalidReferenceNumber {
+  background-color: #a30a5c;
+}
+
+.WaitingForPickUp {
+  background-color: #f59042;
+}
+
+.PickupSuccessful {
+  background-color: #33c45f;
+}
+
+.Canceled {
+  background-color: #c43350;
+}
+
+.selectedStatus {
+  background-color: #f5a742;
+  color: white;
+}
+
+.snackbar {
+  margin-top: 10px;
+  background-color: #33c45f;
+}

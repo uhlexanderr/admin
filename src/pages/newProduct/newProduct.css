@@ -1,0 +1,131 @@
+.newProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  flex: 4;
+  padding: 20px;
+}
+
+.addProductTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.addProductForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.addProductItem {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input,
+.addProductItem > select,
+.addProductItem > textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.addProductItem > select {
+  height: 40px;
+}
+
+.addProductItem > textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.addProductItem > button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addProductButton {
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.addProductButton.disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  margin-bottom: 8px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.chip button {
+  margin-left: 6px;
+  padding: 3px 6px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.chip button:hover {
+  background-color: white;
+  color: teal;
+}
+
+.snackbarContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.snackbarContent {
+  background-color: #4caf50;
+}
+
+.snackbarError {
+  background-color: #f44336;
+}
+
+.snackbarMessage {
+  display: flex;
+  align-items: center;
+}
+
+.snackbarIcon {
+  margin-right: 8px;
+}

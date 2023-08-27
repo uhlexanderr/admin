@@ -1,0 +1,194 @@
+.product {
+  flex: 4;
+  padding: 20px;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productTopLeft,
+.productTopRight {
+  flex: 1;
+}
+
+.productTopRight {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productInfoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.productName {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.productInfoBottom {
+  margin-top: 10px;
+}
+
+.productInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.productInfoValue {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.productBottom {
+  padding: 20px;
+  margin: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.productFormLeft > label {
+  margin-bottom: 10px;
+  color: gray;
+  font-size: 20px;
+}
+
+.productFormLeft > input,
+.productFormLeft > select,
+.productFormLeft > textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.productFormLeft > select {
+  height: 40px;
+}
+
+.productFormLeft > textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.productFormLeft > button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.productFormLeft > button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.chip {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.chip button {
+  margin-left: 6px;
+  padding: 3px 6px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.chip button:hover {
+  background-color: white;
+  color: teal;
+}
+
+.productFormRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUploadImg{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.productUpload{
+  display: flex;
+  align-items: center;
+}
+
+.productButton{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: darkblue;
+  color:white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+}
